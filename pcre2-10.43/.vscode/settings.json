@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "pcre2_internal.h": "c",
+    "random": "c",
+    "*.in": "c"
+  }
+}

@@ -1,0 +1,10 @@
+ngx_regex_module_ctx
+ngx_regex_commands
+ngx_regex_module
+ngx_regex_compile_context
+ngx_regex_studies
+ngx_regex_match_data
+ngx_regex_match_data_size
+ngx_regex_pcre_jit_post
+ngx_regex_pool
+ngx_regex_direct_alloc

@@ -1,0 +1,536 @@
+{
+  "policy": [
+    {
+      "args": [
+        {
+          "cap": 1,
+          "fields": [
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::code->memctl",
+              "fields": [
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::code->memctl->malloc",
+                  "offset": 0
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::code->memctl->free",
+                  "offset": 8
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::code->memctl->memory_data",
+                  "offset": 16
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->tables",
+              "offset": 24
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::code->executable_jit",
+              "offset": 32
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::code",
+              "offset": 40
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::code->blocksize",
+              "offset": 72
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->magic_number",
+              "offset": 80
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::code->compile_options",
+              "offset": 84
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->overall_options",
+              "offset": 88
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::code->extra_options",
+              "offset": 92
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->flags",
+              "offset": 96
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->limit_heap",
+              "offset": 100
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->limit_match",
+              "offset": 104
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->limit_depth",
+              "offset": 108
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->first_codeunit",
+              "offset": 112
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->last_codeunit",
+              "offset": 116
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->bsr_convention",
+              "offset": 120
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->newline_convention",
+              "offset": 122
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->max_lookbehind",
+              "offset": 124
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->minlength",
+              "offset": 126
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->top_bracket",
+              "offset": 128
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::code->top_backref",
+              "offset": 130
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->name_entry_size",
+              "offset": 132
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::code->name_count",
+              "offset": 134
+            }
+          ],
+          "idx": 0
+        },
+        {
+          "cap": 3,
+          "idx": 1
+        },
+        {
+          "cap": 1,
+          "fields": [
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::match_data->memctl",
+              "fields": [
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->memctl->malloc",
+                  "offset": 0
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->memctl->free",
+                  "offset": 8
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->memctl->memory_data",
+                  "offset": 16
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->code",
+              "fields": [
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->code->memctl",
+                  "offset": 0
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->tables",
+                  "offset": 24
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->code->executable_jit",
+                  "offset": 32
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->code",
+                  "offset": 40
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->code->blocksize",
+                  "offset": 72
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->magic_number",
+                  "offset": 80
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->code->compile_options",
+                  "offset": 84
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->overall_options",
+                  "offset": 88
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->code->extra_options",
+                  "offset": 92
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->flags",
+                  "offset": 96
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->limit_heap",
+                  "offset": 100
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->limit_match",
+                  "offset": 104
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->limit_depth",
+                  "offset": 108
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->first_codeunit",
+                  "offset": 112
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->last_codeunit",
+                  "offset": 116
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->bsr_convention",
+                  "offset": 120
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->newline_convention",
+                  "offset": 122
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->max_lookbehind",
+                  "offset": 124
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->minlength",
+                  "offset": 126
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->top_bracket",
+                  "offset": 128
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->code->top_backref",
+                  "offset": 130
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->name_entry_size",
+                  "offset": 132
+                },
+                {
+                  "cap": 1,
+                  "dbg": "pcre2_match_8::match_data->code->name_count",
+                  "offset": 134
+                }
+              ],
+              "offset": 24
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->subject",
+              "offset": 32
+            },
+            {
+              "cap": 2,
+              "dbg": "pcre2_match_8::match_data->mark",
+              "offset": 40
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->heapframes",
+              "fields": [
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->ecode",
+                  "offset": 0
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes",
+                  "offset": 8
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->length",
+                  "offset": 24
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->back_frame",
+                  "offset": 32
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->temp_size",
+                  "offset": 40
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->rdepth",
+                  "offset": 48
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->group_frame_type",
+                  "offset": 52
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes",
+                  "offset": 56
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->return_id",
+                  "offset": 72
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->op",
+                  "offset": 73
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes",
+                  "offset": 74
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->eptr",
+                  "offset": 80
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->start_match",
+                  "offset": 88
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->mark",
+                  "offset": 96
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->recurse_last_used",
+                  "offset": 104
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->current_recurse",
+                  "offset": 112
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->capture_last",
+                  "offset": 116
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->last_group_offset",
+                  "offset": 120
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes->offset_top",
+                  "offset": 128
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::match_data->heapframes",
+                  "offset": 136
+                }
+              ],
+              "offset": 48
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->heapframes_size",
+              "offset": 56
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->subject_length",
+              "offset": 64
+            },
+            {
+              "cap": 2,
+              "dbg": "pcre2_match_8::match_data->leftchar",
+              "offset": 72
+            },
+            {
+              "cap": 2,
+              "dbg": "pcre2_match_8::match_data->rightchar",
+              "offset": 80
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->startchar",
+              "offset": 88
+            },
+            {
+              "cap": 2,
+              "dbg": "pcre2_match_8::match_data->matchedby",
+              "offset": 96
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->flags",
+              "offset": 97
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::match_data->oveccount",
+              "offset": 98
+            },
+            {
+              "cap": 3,
+              "dbg": "pcre2_match_8::match_data->rc",
+              "offset": 100
+            },
+            {
+              "cap": 2,
+              "dbg": "pcre2_match_8::match_data",
+              "offset": 104
+            }
+          ],
+          "idx": 5
+        },
+        {
+          "cap": 1,
+          "fields": [
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::mcontext->memctl",
+              "fields": [
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::mcontext->memctl->malloc",
+                  "offset": 0
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::mcontext->memctl->free",
+                  "offset": 8
+                },
+                {
+                  "cap": 0,
+                  "dbg": "pcre2_match_8::mcontext->memctl->memory_data",
+                  "offset": 16
+                }
+              ],
+              "offset": 0
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::mcontext->callout",
+              "offset": 24
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::mcontext->callout_data",
+              "offset": 32
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::mcontext->substitute_callout",
+              "offset": 40
+            },
+            {
+              "cap": 0,
+              "dbg": "pcre2_match_8::mcontext->substitute_callout_data",
+              "offset": 48
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::mcontext->offset_limit",
+              "offset": 56
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::mcontext->heap_limit",
+              "offset": 64
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::mcontext->match_limit",
+              "offset": 68
+            },
+            {
+              "cap": 1,
+              "dbg": "pcre2_match_8::mcontext->depth_limit",
+              "offset": 72
+            }
+          ],
+          "idx": 6
+        }
+      ],
+      "fname": "pcre2_match_8"
+    }
+  ]
+}

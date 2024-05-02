@@ -1,0 +1,11 @@
+ngx_regex_module_init
+ngx_regex_init
+ngx_regex_compile
+ngx_regex_malloc
+ngx_regex_free
+ngx_regex_exec
+ngx_regex_exec_array
+ngx_regex_create_conf
+ngx_regex_init_conf
+ngx_regex_cleanup
+ngx_regex_pcre_jit
